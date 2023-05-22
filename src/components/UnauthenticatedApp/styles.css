@@ -1,0 +1,9 @@
+.login {
+    background: var(--color-green);
+    padding: 16px;
+    color: var(--color-gray);
+}
+
+h2 {
+    color: var(--color-gray);
+}

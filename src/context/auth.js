@@ -10,7 +10,8 @@ const AuthProvider = (props) => {
         const user = await loginWithGoogle();
 
         if (!user) {
-            // TODO: Handle failed login
+            console.log('Gagal Login')
+            return;
         }
 
         setUser(user);

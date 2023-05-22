@@ -9,7 +9,8 @@ function ChatRoom() {
 
     const room = chatRooms.find((x) => x.id === params.id);
     if (!room) {
-        // TODO: 404
+        console.log('404 Not Found')
+        return;
     }
 
     return (
